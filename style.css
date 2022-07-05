@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.top-banner {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-image: url(images/donation18.jpg);
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+
+.top-banner h1 {
+  font-size: 65px;
+}
+
+.top-banner div {
+  background-color: rgba(0, 0, 0, 0.067);
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.top-banner a {
+  padding: 10px 30px;
+  background-color: rgb(255, 38, 0);
+  margin-top: 50px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.top-banner p{
+    margin-bottom: 50px;
+}
+
+
+.donate-today {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+h2 {
+  font-size: 45px;
+}
+.donation-amount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:fit-content;
+  margin-left: 22%;
+
+}
+.donation-amount h3 {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px 30px;
+  margin-bottom: 10px;
+}
+.donation-amount h3:hover {
+  border: 2px solid #ff5959;
+  padding: 50px 30px;
+  background-color: #ff595971;
+  color: #f04a4a;
+  border-radius: 10px;
+}
+
+.other-donation{
+    margin-top: 20px;
+}
+#other-amount{
+    font-size: 16px;
+    border:none;
+    border-bottom:2px solid gray;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#other-button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(255, 38, 0);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+.donate-plan-container{
+    margin-top:150px;
+    margin-bottom: 50px;
+}
+.donate-plans{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.plan-card{
+padding: 50px;
+text-align: justify;
+margin: 5px;
+border-radius: 10px;
+}
+
+#food{
+    background-color: #4f9da681;
+}
+#shelter{
+    background-color: #ee777786;  
+}
+#education{
+    background-color: #f5e4b4;
+}
+
