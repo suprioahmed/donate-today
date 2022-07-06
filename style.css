@@ -32,10 +32,9 @@ body {
   border-radius: 5px;
 }
 
-.top-banner p{
-    margin-bottom: 50px;
+.top-banner p {
+  margin-bottom: 50px;
 }
-
 
 .donate-today {
   text-align: center;
@@ -49,9 +48,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width:fit-content;
+  width: fit-content;
   margin-left: 22%;
-
 }
 .donation-amount h3 {
   text-align: center;
@@ -62,57 +60,154 @@ h2 {
 .donation-amount h3:hover {
   border: 2px solid #ff5959;
   padding: 50px 30px;
-  background-color: #ff595971;
-  color: #f04a4a;
+  background-color: #f8939371;
+  color: #fa2323;
   border-radius: 10px;
 }
 
-.other-donation{
-    margin-top: 20px;
+.other-donation {
+  margin-top: 20px;
 }
-#other-amount{
-    font-size: 16px;
-    border:none;
-    border-bottom:2px solid gray;
-    width: 50%;
-    height: 30px;
+#other-amount {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#other-button {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: rgb(255, 38, 0);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-top: 5px;
+}
+.donate-plan-container {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.donate-plans {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+.plan-card {
+  padding: 50px;
+  text-align: justify;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#food {
+  background-color: #4f9da681;
+}
+#shelter {
+  background-color: #ee777786;
+}
+#education {
+  background-color: #f5e4b4;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  padding: 20px 0px;
+  margin: 10% 10%;
+  background-color: #f38b8b;
+  margin-right: 5%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.about-image img {
+  width: 500px;
+  padding: 5px 20px;
+  margin-right: 10px;
+}
+.about {
+  width: 500px;
+  padding-right: 0px;
+}
+
+.about-container a {
+  padding: 10px 30px;
+  background-color: white;
+  margin-top: 50px;
+  text-decoration: none;
+  color: rgb(255, 38, 0);
+  border-radius: 20px;
+}
+.about-container p {
+  margin-bottom: 50px;
+}
+
+.get-update-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.get-update p {
+  margin-bottom: 50px;
+}
+.get-update-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+.form {
+  width: 80%;
+  height: 200px;
+  margin: 50px;
+  background-color: #f3ba8b;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#email-input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-right: 0px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#email-button {
+  padding: 7px 20px;
+  margin-left: 0px;
+  font-size: 1rem;
+  background-color: #f34848;
+  border: 1px solid #ff5959;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  color: #f5e4b4;
+}
+
+footer{
+    background-color:rgb(8, 6, 6);
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-#other-button{
-    padding: 10px 30px;
-    font-size: 16px;
-    background-color: rgb(255, 38, 0);
-    border-radius: 5px;
-    color: white;
-    border: none;
-    margin-top: 5px;
-}
-.donate-plan-container{
-    margin-top:150px;
-    margin-bottom: 50px;
-}
-.donate-plans{
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    margin-left: 10%;
-}
-.plan-card{
-padding: 50px;
-text-align: justify;
-margin: 5px;
-border-radius: 10px;
+    padding: 20px;
+    color: gray;
 }
 
-#food{
-    background-color: #4f9da681;
-}
-#shelter{
-    background-color: #ee777786;  
-}
-#education{
-    background-color: #f5e4b4;
+footer h3{
+color:#f38b8b
 }
 
+
+footer p{
+    font-size: small;
+}
